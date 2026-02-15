@@ -5,9 +5,11 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 ## 📌 プロジェクト概要
-本リポジトリは、未知のドメインにおけるWebエージェントの適応能力を飛躍的に高めるフレームワーク**「マニュアル駆動型適応（Manual-Driven Adaptation）」**の実装を公開するものです。
+本リポジトリは、未知のドメインにおけるWebエージェントの適応能力を飛躍的に高めるフレームワーク
+**「マニュアル駆動型適応（Manual-Driven Adaptation）」**の実装を公開するものです。
 
-従来のWebエージェントは、UIの微細な変更（IDの更新など）に弱く、また自然言語のヒントだけでは複雑な業務フローを完遂できない課題がありました。本手法は、成功ログを抽象化した**SOP（Standard Operating Procedures）**を外付けのマニュアルとして導入し、実行時に動的な記号接地（Just-In-Time Grounding）を行うことで、この問題を解決します。
+従来のWebエージェントは、UIの微細な変更（IDの更新など）に弱く、また自然言語のヒントだけでは複雑な業務フローを完遂できない課題がありました。本手法は、成功ログを抽象化した
+**SOP（Standard Operating Procedures）**を外付けのマニュアルとして導入し、実行時に動的な記号接地（Just-In-Time Grounding）を行うことで、この問題を解決します。
 
 ## 🚀 主な特徴
 - **IDレスな抽象化テンプレート**: 要素ID（BID）に依存せず、論理的な操作手順をSOPとして保持。UI変更への高い堅牢性を実現。
