@@ -27,7 +27,7 @@
 ServiceNow等の複雑なUIを対象としたベンチマークテストにおいて、以下の成果を収めました。
 
 - **成功率 (Success Rate)**: **+12.2% 向上** (33.3% → 45.5%)
-- **実行効率**: 平均ステップ数を削減し、最短経路でのタスク完遂に寄与。
+- **実行効率**: 平均ステップ数を削減したタスク完遂に寄与。
 
 ## 🛠 セットアップ
 ```bash
@@ -40,3 +40,13 @@ pip install -r requirements.txt
 
 # BrowserGymのセットアップ
 playwright install chromium
+
+
+#config.yamlのセットアップ
+WorkArenaにもどづく、HUGGING_FACE_HUB_TOKENなど、以下の設定を行う。
+
+gemini_api_key: "AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx"
+gemini_api_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+language: "ja"  # "ja" または "en"
+sop_enabled: True
+HUGGING_FACE_HUB_TOKEN: "hf_XXXXXXXXXXXXXXXXXXXXXXX"
