@@ -22,7 +22,7 @@
 ### 主要モジュール
 - `Autonomous_agent_main.py`: 全体のエージェント・ループと意思決定の制御。
 - `ConcretePlanner.py`: SOPと現在の画面情報を照らし合わせ、実行可能なプランを生成。
-- `ObservationExtractor.py`: 多大なDOM情報から、タスクに関連する要素のみを抽出・解析。
+- `ObservationAnalyzer.py`: 多大なDOM情報から、タスクに関連する要素を抽出・解析。
 - `GoalAnalyzer.py`: ユーザーの最終目的と現状のギャップを分析し、マニフェストを生成。
 
 ## 📊 実験結果 (Benchmark: WorkArena L1)
