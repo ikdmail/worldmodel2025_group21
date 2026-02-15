@@ -1,0 +1,7 @@
+gemini_api_key: "AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx"
+gemini_api_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+language: "ja"  # "ja" または "en"
+
+sop_enabled: True
+
+HUGGING_FACE_HUB_TOKEN: "hf_XXXXXXXXXXXXXXXXXXXXXXX"
