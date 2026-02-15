@@ -41,7 +41,6 @@ pip install -r requirements.txt
 # BrowserGymのセットアップ
 playwright install chromium
 
-
 #config.yamlのセットアップ
 WorkArenaにもどづく、HUGGING_FACE_HUB_TOKENなど、以下の設定を行う。
 
